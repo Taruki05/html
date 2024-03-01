@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="./Formulario.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h2>Formulario de Resgistro Estudiante</h2>
+        </header>
+        <main>
+            <form class="form_register">
+                <input type="text" placeholder="&#9889 Ingrese Usuario" required autofocus>
+                <br>
+                <input type="text" placeholder="&#9977 Ingrese Nombre y Apellido" required>
+                <br>
+                <input type="email" placeholder="&#9746 Ingrese Email" required>
+                <br>
+                <input type="text" placeholder="&#9742 Ingrese Telefono" required>
+                <br>
+                <input type="password" placeholder="&#9978 Ingrese Contraseña" required>
+                <br>
+                <input type="password" placeholder="&#9978 Reingrese su contraseña" required autofocus>
+                <br>
+                <!-- SECCION DE CONTENEDOR DE BOTONES DE FORMULARIO -->
+                <div id="terminos">
+                    <input type="checkbox">Mostrar contraseña
+                </div>
+                <br>
+                <div class="btn_accion">
+                    <button class="btn_enviar" type="submit">Enviar</button>
+                    <button class="btn_limpiar" type="reset">Cancelar</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            &copy;Todos los derechos reservados @Nicolas G. Escobar L.
+        </footer>
+    </div>
+</body>
+</html>
